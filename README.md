@@ -1,7 +1,7 @@
 # giph
 [![npm package version](https://img.shields.io/npm/v/giph.svg?style=flat-square)](https://www.npmjs.com/package/giph) [![Travis build status](https://img.shields.io/travis/kodie/giph.svg?style=flat-square)](https://travis-ci.org/kodie/giph) [![npm package downloads](https://img.shields.io/npm/dt/giph.svg?style=flat-square)](https://www.npmjs.com/package/giph) [![index.js file size](https://img.shields.io/github/size/kodie/giph/index.js.svg?style=flat-square)](index.js) [![code style](https://img.shields.io/badge/code_style-standard-yellow.svg?style=flat-square)](https://github.com/standard/standard) [![license](https://img.shields.io/github/license/kodie/giph.svg?style=flat-square)](LICENSE.md)
 
-![](https://i.imgur.com/57vpCVz.gif)
+![](https://i.imgur.com/ahDsDyH.gif)
 
 A small node module/command line interface tool that fetches a random GIF from [Giphy](https://giphy.com).
 
