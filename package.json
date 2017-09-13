@@ -1,0 +1,50 @@
+{
+  "name": "giph",
+  "version": "1.0.0",
+  "description": "A small node module/command line interface tool that fetches a random GIF from Giphy.",
+  "keywords": [
+    "gif",
+    "giph",
+    "giphy",
+    "cli",
+    "cmd",
+    "term",
+    "random",
+    "rnd",
+    "image",
+    "img",
+    "picture",
+    "pic"
+  ],
+  "author": {
+    "name": "Kodie Grantham",
+    "email": "kodie.grantham@gmail.com",
+    "url": "http://kodieg.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kodie/giph.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kodie/giph/issues"
+  },
+  "homepage": "https://github.com/kodie/giph",
+  "license": "MIT",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "test": "standard && ava"
+  },
+  "dependencies": {
+    "copy-paste": "^1.3.0",
+    "giphy-api": "^1.2.7",
+    "minimist": "^1.2.0",
+    "request": "^2.81.0",
+    "request-promise-native": "^1.0.4",
+    "term-img": "^2.1.0"
+  },
+  "devDependencies": {
+    "ava": "^0.22.0",
+    "standard": "^10.0.3"
+  }
+}
