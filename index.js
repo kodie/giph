@@ -29,7 +29,7 @@ function giph (search, options, cb) {
 
       const request = require('request-promise-native')
 
-      return request.get({ url: img.image_original_url, encoding: 'binary' })
+      return request.get({ url: img.images.original.url, encoding: 'binary' })
         .then(buffer => {
           img.buffer = Buffer.from(buffer, 'binary')
 
@@ -84,7 +84,7 @@ if (require.main === module) {
       }
 
       if (!argv.nocopy) {
-        copyPaste.copy(img.image_original_url)
+        copyPaste.copy(img.images.original.url)
       }
     })
     .catch(err => {
