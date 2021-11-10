@@ -1,6 +1,6 @@
 {
   "name": "giph",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A small node module/command line interface tool that fetches a random GIF from Giphy.",
   "keywords": [
     "gif",
